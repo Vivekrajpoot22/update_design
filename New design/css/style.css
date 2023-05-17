@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    width: 100%;
+    background-color: rgb(186, 186, 240);
+    padding: 5px 0;
+    display: flex;
+}
+#container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration:none;
+    font-size: 20px;
+    font-weight:600;
+    padding: 10px;
+    color: black;
+    text-transform: capitalize;
+    position: relative;
+    transition: .3s ease-in-out;
+}
+.menu ul li a:hover{
+    background-color: rgb(252, 248, 243);
+    color: rgb(36, 35, 35);
+    border-radius: 3px;
+}
+/*---------------------_head_----------------*/
+.head{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    padding: 60px 0;
+}
+.text h1{
+    font-size: 40px;
+    line-height: 5rem;
+    font-weight: 600;
+}
+.text p{
+    font-size: 20px;
+    line-height: 2rem;
+
+}
+.text button{
+    padding: 5px 10px;
+    font-size: 26px;
+    font-weight: bold;
+    background-color: rgb(129, 129, 218);
+    outline: none;
+    border: none;
+    color: aliceblue;
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.image img{
+    width: 100%;
+}
+/*------------------------company section----------------*/
+.company-section{
+    width: 100%;
+    padding: 30px 0;
+
+}
+.company-section h3{
+    text-align: center;
+    color: rgb(133, 132, 131);
+    line-height: 5rem;
+}
+.company-section .images {
+    display: flex;
+    justify-content: space-between;
+}
+.company-section .images img{
+    width: 150px;
+    cursor: pointer;
+}
+
+/*------------------------company section----------------*/
